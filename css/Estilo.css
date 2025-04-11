@@ -1,0 +1,206 @@
+Body{
+	/*background-imagen es par de imagen de fondo */
+	background-image:url("../imagenes/fondo.jpg");
+	/*font-familyes para la tipógrafia de la letra*/
+	font-family:fuente-Restaurant1.OTF;
+	/*FONT-SIZE ES PARA EL TAMAÑO DE LETRA EN PIXELES*/
+	font-size:40px;
+	/*COLOR ES PARA EL COLOLR DE LETRAS */
+	color:#17202A;
+	/*text-ALIGN es para alinear el texto*/
+	TEXT-ALIGN:Center;
+	/*es para letras en negritas */
+	font-weight:bold;
+}
+hr{
+	/*border es para la linea del grosor en pixeles */
+	border:3px solid #3498DB;
+	/*widht es para el ancho de la linea en %*/
+	width:80%;
+	/*es para agregar una curva al final de la linea */
+    border-radius:5px;
+}
+p{
+	/*temaño de letra */
+	font-size:30´x;
+	/*alineacion del texto*/
+	text-align:center;
+	/*interlineado de los renglones */
+	line-height:1.5;
+	/**/
+	letter-spacing:2px;
+	
+
+}
+table,tr,td{
+	border:1px solid BLUE;
+	border-spacing:0px;
+	background-color:red;
+	text-align:center;
+	font-size:20px;
+}
+/*clases*/
+.pie{
+    text-align:center;
+	font-size:15px;
+	height:75px;
+	font-weight:bold;
+    color:#EA5308;
+	/*background-color#EA5308*/
+	background-image:linear-gradient(#B30C0C,#0CB3A4);
+	/*background-image:radial-gradient(#B30C0C,#0CB3A4);*/
+	/*background-image:url("../imagenes/fondo1.jpg");*/
+}
+.sup{
+    text-align:center;
+	font-weight:bold;
+	height:75px;
+	/*background-color#EA5308*/
+	background-image:linear-gradient(#B30C0C,#0CB3A4);
+	/*background-image:radial-gradient(#B30C0C,#0CB3A4);*/
+	/*background-image:url("../imagenes/fondo1.jpg");*/
+}
+.titulo{
+TEXT-ALIGN:center;
+font-size:35px;
+font-weight:bold;
+
+}
+.carrousel{
+	width:600px;
+	margin:auto;
+	box-sizing:border-box;
+	
+}
+.contecarrousel{
+	width:100%;
+	height:400px;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.itemcarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouseltarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;	
+}
+.itemcarrouselarrows{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	top:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+	
+}
+.itemcarrouselarrows>i:hover{
+	cursor:pointer;
+}
+.contecarrouselcontroller{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.contecarrouselcontroller>a{
+	text_decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.contecarrouselarrow<a<i{
+	color:white;
+}
+/*cajas de productos*/
+.caja{
+	height:300px;
+	width:250px;
+	background:#eee;
+	border:1px solid #eee;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px red;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+	
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+/*menu de navegacion */
+.navegacion{
+	display:flex;
+	height:100px;
+}
+.navegacion-item{
+	flex:1;
+	color:#fff;
+	font-weight:bold;
+	font-size:25px;
+	display:flex;
+	transition:flex-grow 0.2s;
+	justify-content:center;
+	align-items:center;
+
+}
+.navegacion-item:hover{
+	flex-grow:10;
+}
+
+
+.navegacion-titulo{
+	margin:0;
+	transform:rotate(-90deg);
+	transition:transform 0.2s 0.2s;
+	font-size:15px;
+	color:blue;
+}
+.navegacion-item:hover .navegacion-titulo{
+	transform:rotate(0);
+}
+	
+
+.navegacion-item:nth-child(1){
+	background:#85C1E9;
+}
+.navegacion-item:nth-child(2){
+	background:#76D7C4;
+}
+.navegacion-item:nth-child(3){
+	background:#F9E79E;
+}
+.navegacion-item:nth-child(4){
+	background:#D7bde2;
+}
+/*fuentes y tipografia*/
+@font-face{
+	font-family:fuente-restaurant 2;
+	src: url(../fuentes/Restaurant1.otf);
+}
+@font-face{
+	font-family:fuente-restaurant 2;
+	src: url(../fuentes/restaurant 2.otf);
+}@font-face{
+	font-family:fuente-restaurant 2;
+	src: url(../fuentes/Restaura.otf);
+}
